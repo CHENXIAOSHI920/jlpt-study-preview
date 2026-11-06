@@ -1,0 +1,44 @@
+{
+  "site": {
+    "name": "日语工具体验站",
+    "repository": "jlpt-study-preview",
+    "defaultBranch": "main",
+    "examSession": "2026.7",
+    "updatedAt": "2026-11-06"
+  },
+  "tools": [
+    {
+      "id": "n1-q4",
+      "path": "n1-q4/",
+      "level": "N1",
+      "section": 4,
+      "title": "問題四 · 词汇用法",
+      "questionNumbers": [20, 21, 22, 23, 24, 25],
+      "questionCount": 6,
+      "storageKey": "jlpt-preview-n1-q4-2026-7-v1",
+      "cacheName": "jlpt-preview-n1-q4-2026-7-v4"
+    },
+    {
+      "id": "n1-q6",
+      "path": "n1-q6/",
+      "level": "N1",
+      "section": 6,
+      "title": "問題六 · 语法排序",
+      "questionNumbers": [36, 37, 38, 39, 40],
+      "questionCount": 5,
+      "storageKey": "jlpt-study-preview-n1-q6-2026-7-v1",
+      "cacheName": null
+    },
+    {
+      "id": "n2-q6",
+      "path": "n2-q6/",
+      "level": "N2",
+      "section": 6,
+      "title": "問題六 · 词汇用法",
+      "questionNumbers": [26, 27, 28, 29, 30],
+      "questionCount": 5,
+      "storageKey": "jlpt-preview-n2-q6-2026-7-v1",
+      "cacheName": "jlpt-preview-n2-q6-2026-7-v4"
+    }
+  ]
+}

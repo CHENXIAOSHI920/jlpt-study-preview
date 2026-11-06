@@ -1,0 +1,18 @@
+{
+  "id": "jlpt-preview-n1-q4-2026-7",
+  "name": "問題四 · JLPT N1 語彙",
+  "short_name": "問題四",
+  "description": "JLPT N1 问题四的连线辨析、真题练习与搭配证据卡。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4F0E7",
+  "theme_color": "#28776B",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
