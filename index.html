@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="JLPT 日语工具体验版集合：N1 词汇用法、N1 语法排序与 N2 词汇用法。">
+  <meta name="description" content="JLPT 日语工具体验版集合：N1 词汇用法、N1 语法排序、N2 词汇用法与 N2 语法排序。">
   <meta name="theme-color" content="#f4f0e7">
   <title>日语工具体验站 · JLPT Study Lab</title>
   <style>
@@ -524,26 +524,6 @@
       transform: translateX(4px);
     }
 
-    .level-section--n2 .tool-grid {
-      grid-template-columns: 1fr;
-    }
-    .level-section--n2 .tool-card {
-      min-height: 275px;
-    }
-    .level-section--n2 .tool-card__main {
-      display: grid;
-      grid-template-columns: minmax(0, 1.25fr) minmax(260px, .75fr);
-      gap: 40px;
-      align-items: start;
-    }
-    .level-section--n2 .tool-card h4 {
-      margin-top: 38px;
-    }
-    .level-section--n2 .tool-card__description {
-      max-width: 570px;
-      padding-top: 94px;
-    }
-
     footer {
       display: flex;
       align-items: center;
@@ -613,13 +593,6 @@
       }
       .tool-grid {
         grid-template-columns: 1fr;
-      }
-      .level-section--n2 .tool-card__main {
-        grid-template-columns: 1fr;
-        gap: 0;
-      }
-      .level-section--n2 .tool-card__description {
-        padding-top: 0;
       }
       .catalog__head {
         grid-template-columns: 1fr;
@@ -756,7 +729,7 @@
       <section class="catalog" aria-labelledby="tools-title">
         <div class="catalog__head">
           <h2 id="tools-title">选择一套开始</h2>
-          <p class="catalog__meta">3 Tools · 2 Levels · 2026.7</p>
+          <p class="catalog__meta">4 Tools · 2 Levels · 2026.7</p>
         </div>
 
         <div class="level-list">
@@ -826,7 +799,7 @@
               <span class="level-head__number" aria-hidden="true">02</span>
               <div class="level-head__copy">
                 <h3 id="n2-title">N2 · 中高级</h3>
-                <p>从语境与搭配入手，确认词义边界。</p>
+                <p>从词汇搭配与文法接续入手，确认语境边界。</p>
               </div>
               <span class="level-head__tag">N2 LEVEL</span>
             </header>
@@ -834,13 +807,11 @@
             <div class="tool-grid">
               <a class="tool-card" href="./n2-q6/index.html" aria-label="进入 N2 问题六词汇用法体验">
                 <div class="tool-card__main">
-                  <div>
-                    <div class="tool-card__top">
-                      <span class="tool-card__index">03 / N2 Q6</span>
-                      <span class="tool-card__level">N2 · 語彙</span>
-                    </div>
-                    <h4>問題六<span>词汇用法</span></h4>
+                  <div class="tool-card__top">
+                    <span class="tool-card__index">03 / N2 Q6</span>
+                    <span class="tool-card__level">N2 · 語彙</span>
                   </div>
+                  <h4>問題六<span>词汇用法</span></h4>
                   <p class="tool-card__description">
                     从词汇搭配进入真题，逐题比对语境与证据，保留错题追踪、重点标记和本地学习进度。
                   </p>
@@ -848,6 +819,30 @@
                 <div class="tool-card__bottom">
                   <div class="tool-card__tags">
                     <span>2026.7 · 5 题</span><span>搭配辨析</span><span>可离线</span>
+                  </div>
+                  <span class="tool-card__enter">
+                    进入练习
+                    <span class="arrow" aria-hidden="true">
+                      <svg viewBox="0 0 20 20"><path d="M3 10h13M11 5l5 5-5 5"/></svg>
+                    </span>
+                  </span>
+                </div>
+              </a>
+
+              <a class="tool-card" href="./n2-q8/index.html" aria-label="进入 N2 问题八语法排序体验">
+                <div class="tool-card__main">
+                  <div class="tool-card__top">
+                    <span class="tool-card__index">04 / N2 Q8</span>
+                    <span class="tool-card__level">N2 · 文法</span>
+                  </div>
+                  <h4>問題八<span>语法排序</span></h4>
+                  <p class="tool-card__description">
+                    在四个空格中按接续逐段落位，用语法证据、候选矩阵与动态★位置核对完整句子。
+                  </p>
+                </div>
+                <div class="tool-card__bottom">
+                  <div class="tool-card__tags">
+                    <span>2026.7 · 5 题</span><span>语法排序</span><span>证据卡</span>
                   </div>
                   <span class="tool-card__enter">
                     进入练习

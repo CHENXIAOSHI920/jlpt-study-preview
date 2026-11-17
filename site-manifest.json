@@ -4,7 +4,7 @@
     "repository": "jlpt-study-preview",
     "defaultBranch": "main",
     "examSession": "2026.7",
-    "updatedAt": "2026-11-06"
+    "updatedAt": "2026-11-17"
   },
   "tools": [
     {
@@ -39,6 +39,17 @@
       "questionCount": 5,
       "storageKey": "jlpt-preview-n2-q6-2026-7-v1",
       "cacheName": "jlpt-preview-n2-q6-2026-7-v4"
+    },
+    {
+      "id": "n2-q8",
+      "path": "n2-q8/",
+      "level": "N2",
+      "section": 8,
+      "title": "問題八 · 语法排序",
+      "questionNumbers": [43, 44, 45, 46, 47],
+      "questionCount": 5,
+      "storageKey": "jlpt-preview-n2-q8-2026-7-v1",
+      "cacheName": null
     }
   ]
 }
